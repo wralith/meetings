@@ -1,0 +1,6 @@
+local:
+  server:
+    port: "8080"
+  postgres:
+    dbDriver: "postgres"
+    dbSource: "postgresql://postgres:123456@localhost:5432/meetings?sslmode=disable"
